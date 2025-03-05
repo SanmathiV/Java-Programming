@@ -7,7 +7,7 @@ public class methods {
 	/*static String wordMethod(String a,String b ) {
 		  String W=a+b;
 		  return W;
-		}
+		} 
 				
 	 static void printLine() {
 		 System.out.println("|---------------|");

@@ -1,0 +1,29 @@
+class user{
+	int id;
+	String name;	
+}
+class book{
+	int bookid;
+	String title;
+	
+}
+public class Classandobjects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		user user1=new user();
+		user1.id=21;
+		user1.name="San";
+		System.out.println(user1.id);
+		System.out.println(user1.name);
+		
+		book b1=new book();
+		b1.bookid=456;
+		b1.title="Alone Rider";
+		book b2=new book();
+		b2.title="Importance of priority";
+		System.out.println(b1.title);
+		System.out.println(b2.title  );
+	}
+
+}

@@ -6,7 +6,7 @@ class book{
 	int bookid;
 	String title;
 	
-}
+} 
 public class Classandobjects {
 
 	public static void main(String[] args) {

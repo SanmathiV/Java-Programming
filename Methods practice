@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class methods {
+	/*static int boxVolume(int l,int b,int h) {//method definiton
+		int vol=l*b*h;//parameters & arguments
+		return vol;
+	}*/
+	/*static String wordMethod(String a,String b ) {
+		  String W=a+b;
+		  return W;
+		}
+				
+	 static void printLine() {
+		 System.out.println("|---------------|");
+		 
+	 }*/
+	
+	/*static int sum(int a,int b,int c,int d) {
+		int value=a+b+c+d;
+		return value;
+	}*/
+	
+       static boolean myMethod(int a ) {
+    	      boolean result=   (a>=10&&a<=99) || (a<=-10&&a>=-99); 
+    	      return result;
+       }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    // Methods
+	 int V=boxVolume(10,20,30);
+	 System.out.print( V);
+	
+		// Printline
+    printLine();
+		String M=wordMethod("  Welcome! ","sann");
+		System.out.println(M);
+		printLine();
+		
+	  // Demo
+     int val=sum(1,2,3,4);
+		System.out.print(val); */
+	 boolean res=myMethod(34);
+	 boolean re=myMethod(-15);
+	 boolean r=myMethod(57);
+		System.out.println(res);
+		System.out.println(re);
+		System.out.println(r);
+		}
+	}
+
